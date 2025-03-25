@@ -4,6 +4,7 @@
   "description": "Pirmasis projektas apie JS",
   "main": "index.js",
   "scripts": {
+   "typeof": "node --watch ./js/7-typeof.js",
     "array": "node --watch ./js/6-array.js",
  "uzduotis": "node --watch ./js/uzduotis.js", 
     "if": "node --watch ./js/5-if.js",
@@ -11,8 +12,12 @@
         "function": "node --watch ./js/3-function.js",
         "string": "node --watch ./js/2-string.js",
         "number": "node --watch ./js/1-number.js",
-"js": "node --watch ./index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+        "js": "node --watch ./index.js",  
+     "adult": "node --watch ./task/adult.js",
+     "marks-average": "node --watch ./task/marks-average.js",
+     "multiply": "node --watch ./task/multiply.js",
+     "text-size": "node --watch ./task/text-size.js",
+     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "js",
