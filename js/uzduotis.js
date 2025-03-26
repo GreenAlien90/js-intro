@@ -68,5 +68,10 @@ console.log(daugyba(3, 5));
 console.log(daugyba(0, 10));
 
 
-    
+function skaitmenuKiekisSkaiciuje(){
+    return numberLength [5] 
+}    
+
+console.log(skaitmenuKiekisSkaiciuje);
+
 
