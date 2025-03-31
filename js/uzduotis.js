@@ -1,4 +1,4 @@
-const a = 2
+ a = 2
 console.log (a);
 
 const b = 4
@@ -45,33 +45,10 @@ console.log('---------------');
 
 console.clear(); 
 
-const d1 = (d[0] + d[1] + d[2] + d[3] + d[4]);
-
-console.log(d1); 
+for (let i = 0; i <=11; i++) {
+    console.log(`${i}/3 `);
+}
 
 console.clear();
-
-function tusciaFunkcija() {
-    return false;
-}
-
-
-console.log(tusciaFunkcija()); 
-
-
-function daugyba (a, b){
-    return a * b
-}
-
-console.log(daugyba(2, 3)); 
-console.log(daugyba(3, 5)); 
-console.log(daugyba(0, 10));
-
-
-function skaitmenuKiekisSkaiciuje(){
-    return numberLength [5] 
-}    
-
-console.log(skaitmenuKiekisSkaiciuje);
 
 
