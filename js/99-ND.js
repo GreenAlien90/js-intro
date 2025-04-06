@@ -108,3 +108,5 @@ function arLyginis(skaicius) {
 console.log(arLyginis(2));  
 console.log(arLyginis(3));  
 
+console.clear();
+
