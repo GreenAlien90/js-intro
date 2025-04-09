@@ -110,3 +110,14 @@ console.log(arLyginis(3));
 
 console.clear();
 
+const text = 'Diena';
+const symbols = {};
+
+for (const s of text) {
+    if (symbols[s]) {
+        symbols[s]--;
+    } else {
+        symbols[s] = 1;
+    }
+}
+console.log(symbols);
