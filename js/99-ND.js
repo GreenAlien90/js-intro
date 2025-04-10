@@ -110,14 +110,8 @@ console.log(arLyginis(3));
 
 console.clear();
 
-const text = 'Diena';
-const symbols = {};
+const numbers = [3, 5, 7, 15];
 
-for (const s of text) {
-    if (symbols[s]) {
-        symbols[s]--;
-    } else {
-        symbols[s] = 1;
-    }
-}
-console.log(symbols);
+const result = Math.min(...numbers);
+
+console.log(result);
